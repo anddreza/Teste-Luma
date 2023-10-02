@@ -1,0 +1,30 @@
+{
+    "usuario": {
+		"name": "Veronica Costello",
+		"email": "roni_cost@example.com",
+		"password": "roni_cost3@example.com"
+	},
+	"inv_pass": {
+		"email": "roni_cost@example.com",
+		"password": "roni_cost3@"
+	},
+	"email_not_found": {
+		"email": "404@example.com",
+		"password": "123456"
+	},
+	"inv_email": {
+		"email": "admin&xample.com",
+		"password": "123456"
+	},
+	"empty_email": {
+		"email": "",
+		"password": "123456"
+	}, 
+	"empty_pass": {
+		"email": "andreza@gmail.com",
+		"password": ""
+	}
+
+
+
+}

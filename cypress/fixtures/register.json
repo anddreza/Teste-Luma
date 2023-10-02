@@ -1,0 +1,11 @@
+{
+	"create": {
+		"new_costumer": {
+		"firstname": "Andreza",
+		"lastname": "Silva",
+		"email": "andrezasilva744@gmail.com",
+		"password": "%P[4Co(11£N", 
+		"confirm_password": "%P[4Co(11£N"
+		}	
+	}
+}
