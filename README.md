@@ -1,9 +1,9 @@
-📍Passos para instalação do projeto em sua máquina: 
+## 📍Passos para instalação do projeto em sua máquina: 
 
-#### Foram utilizados aqui: Git, Cypress, Javascript 
+### Foram utilizados aqui: Git, Cypress, Javascript 
 Iremos testar o site: https://magento2-demo.magebit.com/
 
-#### Passos para seguir e realizar a instalação corretamente: 
+### Passos para seguir e realizar a instalação corretamente: 
 
 1. Crie uma pasta onde ficará o projeto;
 
@@ -44,5 +44,5 @@ OBSERVAÇÃO: É importante também nesse passo verificar a versão do node inst
 14. Clique em specs e crie uma nova clicando em 'create new empty spec'
 
 
-Observações para manutenção de código:
+### Observações para manutenção de código:
 - Criar classes todas com PascalCase, não camelCase;

@@ -1,0 +1,11 @@
+{
+  "name": "Teste-Luma",
+  "version": "1.0.0",
+  "description": "Processo seletivo WEBJUMP",
+  "main": "index.js",
+  "author": "Andreza Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.2.0"
+  }
+}
