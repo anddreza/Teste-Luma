@@ -1,5 +1,7 @@
 ## 📍Passos para instalação do projeto em sua máquina: 
 
+<img src="editar_site.png" width="600"/>
+	
 Informações sobre instalação e configuração: 
 * Foram utilizados aqui: Git, Cypress, Javascript 
 * Iremos testar o site: https://magento2-demo.magebit.com/
