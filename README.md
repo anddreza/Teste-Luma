@@ -10,6 +10,8 @@ Informações sobre instalação e configuração:
 
 2. Antes da instalação do Cypress é necessário inciar um projeto node;
 
+⚠️ **OBSERVAÇÃO: É importante também nesse passo verificar a versão do node instalado na máquina, necessário utilizar a versão 18.12.1, para isso use o comando nvm use 18.12.1;**
+
 3. Escrever em seu terminal: 
 ```sh
 yarn init
@@ -20,7 +22,15 @@ Caso não funcione:
 npm init 
 ```
 
-⚠️ OBSERVAÇÃO: É importante também nesse passo verificar a versão do node instalado na máquina, necessário utilizar a versão 18.12.1, para isso use o comando nvm use 18.12.1;
+package name: Teste-Luma
+version: (1.0.0) -> nesse caso é somente dar enter
+description: Processo seletivo WEBJUMP
+entry-point: (index.js) -> nesse caso é somente dar enter
+test command: -> nesse caso é somente dar enter
+git repository: -> nesse caso é somente dar enter
+keywords: cypress, luma, webjump
+author: Andreza Silva (acresce o nome do dono da máquina)
+license: (ISC) MIT (escrever MIT)
 
 4. Ao realizar todas a descrições corretamente será possível visualizar um arquivo package.json;
 
@@ -28,6 +38,11 @@ npm init
 
 ```sh
 yarn add cypress -D
+```
+
+Caso não funcione:
+```sh
+npm install cypress -D
 ```
 
 o yarn vai no Cypress e verifica todos os pacotes para serem instalados corretamente;
