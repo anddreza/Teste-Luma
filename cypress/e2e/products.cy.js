@@ -17,13 +17,17 @@ describe('adicionar produto ao carrinho', () => {
 		cy.adminLogin()
 
 		ProductPage.fillTops()
-		
-		cy.get('div[id="option-label-size-157-item-172"]')
-			.should('be.visible')
-			.click()
-		//Escolher produto com cor
-		cy.get('div[id="option-label-color-93-item-57"]')
-			.should('be.visible')
-			.click()
+		ProductPage.submit()
+	})
+
+	//adicionar produtos de telas diferentes 
+	it.only('adicionar produto Bottoms e Gear -> Bags', () => {
+		const user = login.usuario
+		cy.adminLogin()
+
+		ProductPage.fillBottoms()
+		ProductPage.fillBags()
+		ProductPage.submit()
+
 	})
 }) 
