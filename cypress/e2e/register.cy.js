@@ -1,12 +1,32 @@
 import data from '../fixtures/register.json'
 import RegisterPage from '../support/pages/RegisterPage'
 
+import { faker } from '@faker-js/faker';
+
 
 describe('cadastrar novo usuário', () => {
 	it('deve poder cadastrar novo usuário', () => {
+		//foi optado por deixar fixo a massa de teste, mas também poderia ser usado a biblioteca faker, porém para não poluir o banco com vários registros foi necessário tomar essa decisão 
 		const user = data.new_costumer
 		RegisterPage.doLogin(user)
 
+	})
+
+	it('criando novos usuários com a biblioteca faker', () => {
+
+		RegisterPage.go()
+		const password = faker.internet.password()
+		const user = {
+			firstname: "Maria",
+			lastname: faker.internet.userName(),
+			email: faker.internet.email(),
+			password: password,
+			confirm_password: password
+		}
+
+		RegisterPage.fill(user)
+		RegisterPage.pass(user)
+		RegisterPage.submit()
 	})
 
 	it('deve clicar no botão de Create and Account sem nenhum campo preenchido', () => {
