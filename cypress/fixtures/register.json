@@ -1,11 +1,38 @@
 {
-	"create": {
-		"new_costumer": {
+	"new_costumer": {
+		"firstname": "Andreza",
+		"lastname": "Silva",
+		"email": "andreza@gmail.com",
+		"password": "%P[4Co(11£N", 
+		"confirm_password": "%P[4Co(11£N"
+		},
+	"empty_all": {
+		"firstname": "",
+		"lastname": "",
+		"email": "",
+		"password": "", 
+		"confirm_password": ""
+	},
+	"empty_password": {
 		"firstname": "Andreza",
 		"lastname": "Silva",
 		"email": "andrezasilva744@gmail.com",
-		"password": "%P[4Co(11£N", 
-		"confirm_password": "%P[4Co(11£N"
-		}	
+		"password": "12345", 
+		"confirm_password": "12345"
+	},
+	"empty_password_eight": {
+		"firstname": "Andreza",
+		"lastname": "Silva",
+		"email": "andrezasilva744@gmail.com",
+		"password": "12345678", 
+		"confirm_password": "12345678"
+	},
+	"empty_password_capital_letter": {
+		"firstname": "Andreza",
+		"lastname": "Silva",
+		"email": "andrezasilva744@gmail.com",
+		"password": "ABCDEFGHI", 
+		"confirm_password": "ABCDEFGHI"
 	}
+
 }

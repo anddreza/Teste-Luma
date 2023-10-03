@@ -10,21 +10,21 @@ class RegisterPage{
 		cy.get('input[id="email_address"]').as('email_address') */
 
 		if(user.firstname){
-			cy.get('input[id="firstname"]').type(user.firstname)
+			cy.get('input[id="firstname"]').clear({force: true}).type(user.firstname)
 		}
 		
 		if(user.lastname){
-			cy.get('input[id="lastname"]').type(user.lastname)
+			cy.get('input[id="lastname"]').clear({force: true}).type(user.lastname)
 		}
 
 		if(user.email){
-			cy.get('input[id="email_address"]').type(user.email)
+			cy.get('input[id="email_address"]').clear({force: true}).type(user.email)
 		}
 	}
 
 	pass(user){
-		cy.get('input[id="password"]').type(user.password)
-		cy.get('input[id="password-confirmation"]').type(user.confirm_password)
+		cy.get('input[id="password"]').clear({force: true}).type(user.password)
+		cy.get('input[id="password-confirmation"]').clear({force: true}).type(user.confirm_password)
 	}
 
 	submit() {
