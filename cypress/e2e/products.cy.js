@@ -26,6 +26,7 @@ describe('adicionar produto ao carrinho', () => {
 		cy.adminLogin()
 
 		ProductPage.fillBottoms()
+		ProductPage.submit()
 		ProductPage.fillBags()
 		ProductPage.submit()
 
