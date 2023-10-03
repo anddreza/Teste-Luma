@@ -52,12 +52,12 @@ o yarn vai no Cypress e verifica todos os pacotes para serem instalados corretam
 7. Verificar qual versão do Cypress foi instalado, pois é necessário que seja a 12.2.0, caso seja uma versão superior então faça o comando: 
 
 ```sh
-yarn remove cypress; 
+yarn remove cypress
 ```
 
 Caso não funcione:
 ```sh
-npm uninstall cypress;
+npm uninstall cypress
 ```
 
 8. Para instalação da versão correta utilize:
