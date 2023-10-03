@@ -42,6 +42,8 @@ npm init
 * author: Andreza Silva (acresce o nome do dono da máquina)
 
 * license: (ISC) MIT (escrever MIT)
+_______________________________________________________________________
+
 
 4. Ao realizar todas a descrições corretamente será possível visualizar um arquivo package.json;
 
@@ -56,7 +58,7 @@ Caso não funcione:
 npm install cypress -D
 ```
 
-o yarn vai no Cypress e verifica todos os pacotes para serem instalados corretamente;
+- O yarn vai no Cypress e verifica todos os pacotes para serem instalados corretamente;
 
 6. Após esse comando terá pastas como: *node_modules*, *package.json*, *yarn.lock*;
 
