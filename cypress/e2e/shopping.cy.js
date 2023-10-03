@@ -15,5 +15,33 @@ describe('finalizar compra', () => {
 		ShoppingPage.submitProgress()
 
 	})
+
+	it('remover item adicionado', () => {
+		const user = login.usuario
+		cy.adminLogin()
+
+		ProductPage.fillWomen()
+		ProductPage.addElementWomen()
+		ProductPage.submit()
+		ShoppingPage.go()
+
+		cy.get('a[class="action action-delete"]')
+			.click()
+
+	})
+
+	it.only('adicionar mais itens a somente um item', () => {
+		const user = login.usuario
+		cy.adminLogin()
+
+		ProductPage.fillWomen()
+		ProductPage.addElementWomen()
+		ProductPage.submit()
+		ShoppingPage.go()
+
+		cy.get('input[class="input-text qty"]')
+			.clear()
+			.type("2")
+	})
 	
   })
