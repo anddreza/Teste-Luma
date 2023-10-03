@@ -46,3 +46,9 @@ OBSERVAÇÃO: É importante também nesse passo verificar a versão do node inst
 
 ### Observações para manutenção de código:
 - Criar classes todas com PascalCase, não camelCase;
+
+
+### Leituras no futuro para visualizar o tooltip error message:
+https://stackoverflow.com/questions/75436358/how-to-get-this-element-from-an-email-type-input-with-cypress
+
+https://glebbahmutov.com/blog/form-validation-in-cypress/
