@@ -21,7 +21,7 @@ describe('adicionar produto ao carrinho', () => {
 	})
 
 	//adicionar produtos de telas diferentes 
-	it.only('adicionar produto Bottoms e Gear -> Bags', () => {
+	it('adicionar produto Bottoms e Gear -> Bags', () => {
 		const user = login.usuario
 		cy.adminLogin()
 
