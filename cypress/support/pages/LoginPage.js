@@ -26,6 +26,11 @@ class LoginPage{
 			.click()
 	}
 
+	doLogin(user){
+		this.go()
+		this.fill(user)
+		this.submit()
+	}
 }
 
 export default new LoginPage()
