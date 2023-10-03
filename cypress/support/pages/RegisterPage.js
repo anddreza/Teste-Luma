@@ -27,7 +27,7 @@ class RegisterPage{
 		cy.get('input[id="password-confirmation"]').clear({force: true}).type(user.confirm_password)
 	}
 
-	submit() {
+	submit(){
 		cy.contains('button', 'Create an Account')
 			.click()
 	}
