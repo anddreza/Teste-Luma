@@ -23,16 +23,17 @@ Caso não funcione:
 ```sh
 npm init 
 ```
+#### Passos para o que escrever quando rodado o comando acima: 
 
-package name: Teste-Luma
-version: (1.0.0) -> nesse caso é somente dar enter
-description: Processo seletivo WEBJUMP
-entry-point: (index.js) -> nesse caso é somente dar enter
-test command: -> nesse caso é somente dar enter
-git repository: -> nesse caso é somente dar enter
-keywords: cypress, luma, webjump
-author: Andreza Silva (acresce o nome do dono da máquina)
-license: (ISC) MIT (escrever MIT)
+* package name: Teste-Luma
+* version: (1.0.0) -> nesse caso é somente dar enter
+* description: Processo seletivo WEBJUMP
+* entry-point: (index.js) -> nesse caso é somente dar enter
+* test command: -> nesse caso é somente dar enter
+* git repository: -> nesse caso é somente dar enter
+* keywords: cypress, luma, webjump
+* author: Andreza Silva (acresce o nome do dono da máquina)
+* license: (ISC) MIT (escrever MIT)
 
 4. Ao realizar todas a descrições corretamente será possível visualizar um arquivo package.json;
 
